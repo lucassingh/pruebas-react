@@ -11,3 +11,25 @@ body {
     font-family: 'Poppins', sans-serif;
     user-select: none; 
 }
+
+.container-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+    .title-section {
+        color: #0057ff;
+    }
+}
+
+.container-title-section-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    
+    .title-section-new {
+        color: #0057ff;
+    }
+}
