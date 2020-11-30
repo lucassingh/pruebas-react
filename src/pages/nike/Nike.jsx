@@ -14,8 +14,7 @@ function Nike() {
                 <div className="nike-container-info">
                     <h1 className="nike-title">Nike Air Zoom Terre</h1>
                     <p className="nike-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
                     <button className="nike-button-shop">Add to cart</button>
                 </div>
