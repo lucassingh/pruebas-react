@@ -4,8 +4,8 @@ import { CardInfoNike } from './CardInfo';
 function CardNike() {
     return (
         <>
-            <div className="container-title-section">
-                <h2 className="title-section">New</h2>
+            <div className="container-title-section-new">
+                <h2 className="title-section-new">New</h2>
             </div>            
             <div className="card-container">
                 { CardInfoNike.map((item, index) => {

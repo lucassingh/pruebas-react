@@ -1,5 +1,6 @@
 import React from 'react'
 import CardPuma from './../../components/card/CardPuma';
+import BannerPuma from './../../components/banner/BannerPuma';
 
 function Puma() {
     return (
@@ -19,6 +20,7 @@ function Puma() {
                 </div>
             </div>
         <CardPuma/>
+        <BannerPuma/>
         </>
     )
 }

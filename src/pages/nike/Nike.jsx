@@ -1,5 +1,6 @@
 import React from 'react'
 import  CardNike from '../../components/card/CardNike'
+import BannerNike from './../../components/banner/BannerNike';
 
 
 function Nike() {
@@ -20,6 +21,7 @@ function Nike() {
                 </div>
             </div>
             <CardNike/>
+            <BannerNike/>
         </>
     )
 }
