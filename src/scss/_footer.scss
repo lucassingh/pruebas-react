@@ -1,0 +1,49 @@
+.footer-container {
+    width: 100%;
+    padding: 10% 7% 7% 7%;
+    background-color: rgb(29, 29, 29);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .footer-header  {
+    width: 100%;
+    padding-right: 20%;
+        .footer-text {
+        color: #fff;
+        font-weight: 300;
+        font-size: 12px;
+        }
+    }
+
+    .footer-links {
+        margin-top: 20px;
+        .footer-Link-title {
+            color: #fff;
+            margin-bottom: -22px;
+        }
+
+        .footer-link-text {
+            color: #fff;
+            font-weight: 300;
+            font-size: 12px;
+            cursor: pointer;
+        }
+    }    
+}
+
+.footer-copy {
+    width: 100%;
+    background-color: #131111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 5% 0;
+
+    .footer-copy-text {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
