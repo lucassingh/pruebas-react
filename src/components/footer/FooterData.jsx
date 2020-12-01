@@ -1,57 +1,31 @@
-export const FooterHeader = [
+export const FooterData = [
     {
-        logoUrl: 'assets/icons/logo.svg',
-        textHeader: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'        
-    }    
-]
-
-export const FooterLinks = [
-    {
-        linksTitle: 'Quicks Links',        
+        title: 'Quick Links',
+        text0: 'Adidas',
+        text1: 'Nike',
+        text2: 'Puma',
+        text3: 'Shop'
     },
     {
-        link: 'Adidas'
+        title: 'Customer care',
+        text0: 'Shipping',
+        text1: 'Privacy Note',
+        text2: 'registration',
+        text3: 'Find a shop'
     },
     {
-        link: 'Nike'
+        title: 'Social Media',
+        text0: 'facebook',
+        text1: 'instagram',
+        text2: 'twitter',
+        text3: 'Snapchat'
     },
     {
-        link: 'Puma'
-    },
-    {
-        link: 'Shop'
-    },
-]
-
-export const FooterCustomerCare = [
-    {
-        linksTitle: 'Customer Care',        
-    },
-    {
-        link: 'help'
-    },
-    {
-        link: 'Find Store'
-    },
-    {
-        link: 'Shipping'
-    },
-    {
-        link: 'Privacy notice'
-    },
-]
-
-export const FooterSocialMedia = [
-    {
-        linksTitle: 'Social Media',        
-    },
-    {
-        link: 'Facebook'
-    },
-    {
-        link: 'Instagram'
-    },
-    {
-        link: 'Twitter'
+        title: 'About',
+        text0: 'Contact',
+        text1: 'Termns',
+        text2: 'Sales',
+        text3: 'Careers'
     }
 ]
+

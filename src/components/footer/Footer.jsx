@@ -1,43 +1,22 @@
 import React from 'react'
-import { FooterHeader, 
-    FooterLinks, 
-    FooterCustomerCare, 
-    FooterSocialMedia
-} from './FooterData';
+import { FooterData } from './FooterData';
 
 function Footer() {
     return (
     <>
-        <div className="footer-container">            
-            { FooterHeader.map((item, index) => {
+        <div className="footer-container">
+            { FooterData.map((item, index) => {
                 return(
-                    <div key={ index } className="footer-header">
-                        <img src={ item.logoUrl } alt="logo" width="60%"/>
-                        <p className="footer-text">{ item.textHeader }</p>
-                    </div>                    
-                )
-            })}
-            { FooterLinks.map((item, index)  => {
-                return(
-                    <div key={ index } className="footer-links">
-                        <h5 className="footer-Link-title">{ item.linksTitle }</h5>
-                        <span className="footer-link-text">{ item.link }</span>
-                    </div>
-                )
-            })}
-            { FooterCustomerCare.map((item, index)  => {
-                return(
-                    <div key={ index } className="footer-links">
-                        <h5 className="footer-Link-title">{ item.linksTitle }</h5>
-                        <span className="footer-link-text">{ item.link }</span>
-                    </div>
-                )
-            })}
-            { FooterSocialMedia.map((item, index)  => {
-                return(
-                    <div key={ index } className="footer-links">
-                        <h5 className="footer-Link-title">{ item.linksTitle }</h5>
-                        <span className="footer-link-text">{ item.link }</span>
+                    <div key={ index } className="footer">
+                        <div className="footer-header">
+                            <h3 className="footer-title">{ item.title }</h3>
+                        </div>
+                        <div className="footer-body">                            
+                            <span className="text-body">{item.text0}</span>
+                            <span className="text-body">{item.text1}</span>
+                            <span className="text-body">{item.text2}</span>
+                            <span className="text-body">{item.text3}</span>
+                        </div>
                     </div>
                 )
             })}
