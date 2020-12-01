@@ -6,6 +6,7 @@ import Adidas from './pages/adidas/Adidas';
 import Nike from './pages/nike/Nike';
 import Puma from './pages/puma/Puma';
 import Shop from './pages/shop/Shop';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path='/shop' component={ Shop }/>
             </Switch>
             <Newsletter/>
+            <Footer/>
         </Router>        
     </>
   );
